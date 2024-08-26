@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attendance Management System"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:layout_below="@id/title"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/buttonAddStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:layout_below="@id/editTextStudentName"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonMarkAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mark Attendance"
+        android:layout_below="@id/buttonAddStudent"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonViewAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Attendance"
+        android:layout_below="@id/buttonMarkAttendance"/>
+
+</RelativeLayout>
